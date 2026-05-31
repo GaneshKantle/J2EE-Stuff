@@ -10,16 +10,16 @@ interface EvenOrOdd{
 }
 
 
-//class imp implements EvenOrOdd{
-//	public String validate(int a) {
-//		if(a%2==0) {
-//			return "Even";
-//		}
-//		else {
-//			return "False";
-//		}
-//	}
-//}
+class imp implements EvenOrOdd{
+	public String validate(int a) {
+		if(a%2==0) {
+			return "Even";
+		}
+		else {
+			return "False";
+		}
+	}
+}
 
 public class LambdaExpresssion {
 
